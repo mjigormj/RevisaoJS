@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reestudando JS</title>
+    <style>
+        body {
+            background: #000;
+            color: rgb(228, 186, 0);
+            font: normal 18pt Arial;
+        }
+
+        strong {
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Reestudando JS</h1>
+    <p>Aqui vai o Resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JS</p>
+    <div id='msg'>Clique em mim</div>
+
+
+    <script>
+        //AULA 01 - INTERAGINDO COM A DOOM
+        //document.getElement*
+        /*var ms = window.document.getElementById('msg').innerText = "Hahahahahahahha!!!!!!"
+        ms.style.background = 'green'
+
+        let ms = document.getElementById('msg')
+        ms.innerText = 'Olá'*/
+
+        var ms = document.querySelector('div#msg')
+        ms.style.color = 'blue'
+    </script>
+</body>
+</html>
